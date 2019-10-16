@@ -16,9 +16,9 @@ time.sleep(2)
 # 格式是PEP8自动转的
 # 这里是找到输入框,发送要输入的用户名和密码,模拟登陆
 browser.find_element_by_xpath(
-    "//*[@id='aw-login-user-name']").send_keys("1837074495@qq.com")
+    "//*[@id='aw-login-user-name']").send_keys("账号")
 browser.find_element_by_xpath(
-    "//*[@id='aw-login-user-password']").send_keys("woshiyd0808")
+    "//*[@id='aw-login-user-password']").send_keys("密码")
 # 在输入用户名和密码之后,点击登陆按钮
 browser.find_element_by_xpath("//*[@id='login_submit']").click()
 time.sleep(2)
